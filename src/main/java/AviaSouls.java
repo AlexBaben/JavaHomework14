@@ -27,10 +27,10 @@ public class AviaSouls {
             if (ticket.getFrom().equals(from)) {
                 if (ticket.getTo().equals(to)) {
                     result = addToArray(result, ticket);
-                    Arrays.sort(result);
                 }
             }
         }
+        Arrays.sort(result);
         return result;
     }
 
